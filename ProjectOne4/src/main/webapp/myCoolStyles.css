@@ -1,0 +1,217 @@
+@charset "ISO-8859-1";
+.display {
+	background-color: #000;
+	text-align: center;
+	padding: 5rem;
+	margin: 5rem;
+	 border-radius: 25px;
+}
+
+img {
+    
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+  }
+body{
+
+   color: white;
+    background-color: #111;
+     /* The image used */
+     opacity: 0.8;
+     background-image: url(http://is2.4chan.org/wg/1562774795676.jpg);
+     
+  /* Full height */
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  } 
+  h2{
+    color: rgb(255, 255, 255); /*orange red*/
+    
+  } 
+  h6{
+    color: #9B2E20; /*orange red*/
+    
+  } 
+  hr{
+   
+    border-top: 2px solid #990000;
+    border-bottom: 2px solid #9B2E20;
+  } 
+  /* unvisited link */
+  a.regular:link {
+    color: #9B2E20;
+  }
+  
+  /* visited link */
+  a.regular:visited {
+    color: #165260;
+  }
+  
+  /* mouse over link */
+  a.regular:hover {
+    color: #628F1D;
+  }
+  
+  /* selected link */
+  a.regular:active {
+    color: #741306;
+  }
+  /* unvisited link */
+  a.email:link {
+    color: #FFF;
+  }
+  
+  /* visited link */
+  a.email:visited {
+    color: #FFF;
+  }
+  
+  /* mouse over link */
+  a.email:hover {
+    color: #733853;
+  }
+  
+  /* selected link */
+  a.email:active {
+    color: #EDED00;
+  }
+  
+  ul.Rajdhani{
+    font-family: 'Rajdhani';
+    font-size: 12pt;
+  
+  
+  }
+  ul.permantent{
+    font-family: 'Permanent Marker';
+  }
+  .greyblack{
+    background-color: #333;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #nav_wrapper{
+    font-family: "Geneva";
+    font-size: 14pt; 
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  } 
+  #page_wrapper{
+    font-family: "Geneva";
+    font-size: 14pt; 
+    width: 1200px;
+    min-height: 500px;
+    margin: 0px auto 0px auto;
+  } 
+  #header{
+    width: 100%;
+    background-color: #FFA498;/*pinkish red light*/
+    height: 150px;
+  } 
+  #main{
+   
+    padding: 20px;
+    
+  } 
+  
+  #footer{
+    background-color: #333;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 1200px;
+    color: #ffffff;/*white*/
+    padding: 10px;
+  } 
+  div.column50percent{
+          box-sizing: border-box;   /* So that padding/border is included in width */
+          width: 10%;
+          background-color: #9B2E20;/*grey dark orangish red*/
+          height: 150px;
+          color: #ffffff;/*white*/
+          padding: 10px;
+          margin: 10px;             /* This is ignored in table-cell display */
+          display: table-cell;
+  }
+  .center {
+    margin: auto;
+    width: 50%;
+
+    padding: 10px;
+    position: relative;
+    left: 25%;
+   
+  }
+  .clear_float{
+           clear: both;   /* Clears both left and right float */  
+  } 
+  .dark{
+      text-align: center;
+    border-radius: 25px;
+    
+    background-color: #111;
+  }
+  div.column_33_table_cell {
+      
+          box-sizing: border-box;   
+            width: 50%;
+          
+          padding: 2%;
+          margin: 10px;             
+  
+          
+  }
+  ul {
+      list-style-image:url(images/bullet_splat.png);
+  }
+  /*nav***********************************************************************/
+  #nav ul {
+    list-style-image: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  #nav li {
+    float: left;
+  }
+  
+  #nav li a {
+    display: block;
+    color: #FFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #nav li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  #nav .active {
+    background-color: rgb(151, 32, 155);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
